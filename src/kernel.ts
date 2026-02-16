@@ -4,6 +4,7 @@ import { config } from './config.js';
 import { log } from './logger.js';
 import { initIOSDriver, closeIOSDriver, testLaunchSafari } from './ios-driver.js';
 import { getScreenState } from './get-screen-state.js';
+import { callLLM } from './llm-call.js';
 
 console.log("=====================================");
 console.log("     iClaw – iPhone AI Agent v0.1    ");
@@ -26,6 +27,14 @@ async function main() {
     log("Testing screen state retrieval...");
     const state = await getScreenState();
     log(`Sample screen state (first 200 chars): ${state.substring(0, 200)}`);
+
+    log("Testing basic LLM reasoning...");
+    const llmResult = await callLLM(
+      "Open Safari and search for lofi music",
+      state  // from earlier getScreenState()
+    );
+    log(`LLM thought: ${llmResult.thought}`);
+    log(`LLM suggested action: ${llmResult.action}`);
 
     log("Basic iOS connection and action test PASSED!");
     log("Note: In a real run, this would now enter the reasoning + action loop.");
