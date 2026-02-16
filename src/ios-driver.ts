@@ -1,5 +1,5 @@
 
-// src/ios-driver.ts - Appium/WebdriverIO session manager for iOS control
+// src/ios-driver.ts - Appium/WebdriverIO session manager for iOS control update
 
 import { remote } from 'webdriverio';
 import { config } from './config.js';
