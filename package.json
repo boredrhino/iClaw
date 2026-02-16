@@ -1,21 +1,23 @@
 {
   "name": "iclaw",
   "version": "0.1.0",
-  "description": "iOS AI agent: Appium + LLM controlled iPhone automation",
+  "description": "iOS adaptation of DroidClaw: Turn old iPhones into autonomous AI agents using Appium + LLM",
   "main": "src/kernel.ts",
+  "type": "module",
   "scripts": {
     "start": "bun run src/kernel.ts",
-    "dev": "bun --watch src/kernel.ts"
+    "dev": "bun --watch src/kernel.ts",
+    "test": "echo \"No tests yet – coming soon!\""
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
     "webdriverio": "^8.40.0",
     "@wdio/appium-service": "^8.40.0",
-    "openai": "^4.0.0",
-    "@groq/groq-sdk": "^0.1.0"
+    "openai": "^4.57.0",
+    "@groq/groq-sdk": "^0.5.0"
   },
   "devDependencies": {
-    "typescript": "^5.5.0",
+    "typescript": "^5.5.4",
     "bun-types": "latest"
-  },
-  "type": "module"
+  }
 }
