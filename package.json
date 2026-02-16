@@ -1,0 +1,21 @@
+{
+  "name": "iclaw",
+  "version": "0.1.0",
+  "description": "iOS AI agent: Appium + LLM controlled iPhone automation",
+  "main": "src/kernel.ts",
+  "scripts": {
+    "start": "bun run src/kernel.ts",
+    "dev": "bun --watch src/kernel.ts"
+  },
+  "dependencies": {
+    "webdriverio": "^8.40.0",
+    "@wdio/appium-service": "^8.40.0",
+    "openai": "^4.0.0",
+    "@groq/groq-sdk": "^0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "bun-types": "latest"
+  },
+  "type": "module"
+}
