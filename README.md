@@ -19,7 +19,7 @@ Inspired by and adapted from [DroidClaw](https://github.com/unitedbyai/droidclaw
 - Bun or Node.js
 
 ## Quick Setup
-1. `git clone https://github.com/metamantra/iClaw.git`
+1. `git clone https://github.com/boredrhino/iClaw.git`
 2. `cd iClaw && bun install`
 3. Copy `.env.example` → `.env` and fill in LLM keys, DEVICE_UDID, etc.
 4. Start Appium: `appium &`
