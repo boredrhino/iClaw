@@ -5,6 +5,8 @@ Give it a plain-English goal → it reads the screen (UI hierarchy via Appium + 
 
 Inspired by and adapted from [DroidClaw](https://github.com/unitedbyai/droidclaw) (Android version).
 
+Follow me on X https://x.com/boredrhinoxyz for any official updates or potential tokens for my project.
+
 ## Features
 - Natural language goals & multi-step workflows
 - Deterministic YAML flows
