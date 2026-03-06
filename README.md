@@ -7,6 +7,8 @@ Inspired by and adapted from [DroidClaw](https://github.com/unitedbyai/droidclaw
 
 Follow me on X https://x.com/boredrhinoxyz for any official updates or potential tokens for my project.
 
+Community Launched Coin on Pumpfun: 2k5Xj41hxjuhearGAY7oEa1qjsEeMhcMS9zwswztpump
+
 ## Features
 - Natural language goals & multi-step workflows
 - Deterministic YAML flows
